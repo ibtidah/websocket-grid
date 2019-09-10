@@ -1,12 +1,13 @@
 {
     "name": "Small Sharp Tool",
     "description": "This app does one little thing, and does it well.",
+    "addons": ["heroku-postgresql:hobby-dev"],
     "keywords": [
         "productivity",
         "HTML5",
         "scalpel"
     ],
     "scripts": {
-        "postdeploy": "flask db upgrade"
+        
       }
 }
