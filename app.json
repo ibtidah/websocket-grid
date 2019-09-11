@@ -1,13 +1,14 @@
 {
-    "name": "Small Sharp Tool",
-    "description": "This app does one little thing, and does it well.",
+    "name": "OpenGrid Node",
+    "description": "This app acts as a Node for a grid network.",
     "addons": ["heroku-postgresql:hobby-dev"],
     "keywords": [
-        "productivity",
-        "HTML5",
-        "scalpel"
+        "pysyft",
+        "pytorch",
+        "openmined",
+        "python"
     ],
     "scripts": {
-        
+        "postdeploy": "flask db upgrade"
       }
 }
