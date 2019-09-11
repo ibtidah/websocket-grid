@@ -9,6 +9,6 @@
         "python"
     ],
     "scripts": {
-        "postdeploy": "flask db upgrade"
+        
       }
 }
