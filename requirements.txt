@@ -1,4 +1,4 @@
-torch=1.0.1
+torch==1.0.1
 https://download.pytorch.org/whl/cpu/torch-1.0.1-cp36-cp36m-win_amd64.whl; sys_platform == "windows"
 torch; sys_platform == "darwin"
 git+git://github.com/OpenMined/PySyft@dev
