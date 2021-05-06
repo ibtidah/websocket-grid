@@ -7,7 +7,7 @@ git+git://github.com/OpenMined/Grid@dev
 Click==7.0
 eventlet==0.24.1
 gunicorn==19.9.0
-Flask-Cors==3.0.7
+Flask-Cors==3.0.9
 Flask-SocketIO==3.3.2
 itsdangerous==1.1.0
 Flask-Sockets==0.2.1
