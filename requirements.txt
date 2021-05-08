@@ -5,7 +5,7 @@ git+git://github.com/OpenMined/PySyft@dev
 torchvision
 git+git://github.com/OpenMined/Grid@dev
 Click==7.0
-eventlet==0.24.1
+eventlet==0.31.0
 gunicorn==19.9.0
 Flask-Cors==3.0.7
 Flask-SocketIO==3.3.2
